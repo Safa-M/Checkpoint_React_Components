@@ -1,5 +1,6 @@
 .App-header {
-  background-color: #3f3e3e;
+  background-image: url("gomc.png");
+  /* background-color: #3f3e3e; */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -9,21 +10,25 @@
   color: rgb(255, 255, 255);
 }
 .imag {
-  width: 240px;
-  height: 230px;
-  border-radius: 7px;
+  width: 160px;   
+  height: 170px; 
+  border-bottom-left-radius: 50% 55%;
+  border-bottom-right-radius: 50% 55%;
+  border-top-left-radius: 50% 55%;
+  border-top-right-radius: 50% 55%;
   }
+  
 h2 {
   border-radius: 7px;
   background-color: rgb(219 25 0);
-  margin: 10px 0px 0px 0px;
+  margin: 20px 0px 0px 0px;
   padding: 10px 10px 10px 10px;
   font-size: larger;
 }
 h4 {
   border-radius: 7px;
-  background-color:rgb(219 25 0);
-  margin: 10px 0px 0px 0px;
+  background-color: rgb(219 25 0);
+  margin: 20px 0px 0px 0px;
   padding: 10px 10px 10px 10px;
   font-size: larger;
 }
